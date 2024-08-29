@@ -1,0 +1,20 @@
+/*Print Reverse Num*/
+#include<iostream.h>
+#include<conio.h>
+int main()
+{
+	int n,rv=0,rm,temp;
+	clrscr();
+	cout<<"Enter Numbers:";
+	cin>>n;
+	temp=n;
+	while(temp!=0)
+	{
+		rm=temp%10;
+		rv=rv*10+rm;
+		temp/=10;
+	}
+	cout<<"Reversed Number = "<<rv;
+	getch();
+	return 0;
+}
