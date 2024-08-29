@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	clrscr();
+	cout<<"Name : Roshni Shaikh"<<endl;
+	cout<<"DOB : 1-1-2000"<<endl;
+	cout<<"Mother's Name : Shahin Shaikh "<<endl;
+	cout<<"Father's Name : Rafik Shaikh"<<endl;
+	cout<<"Mo no.: 1234567890"<<endl;
+	cout<<"City : Surat"<<endl;
+	getch();
+}
